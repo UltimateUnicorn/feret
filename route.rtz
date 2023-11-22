@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--route node-->
+<route version="1.0" xmlns="http://www.cirm.org/RTZ/1/0">
+  <!--routeInfo node-->
+  <routeInfo routeName="ATUONA - PUAMAU" optimizationMethod="MAX speed">
+    <extensions>
+      <extension manufacturer="Furuno" name="AdditionalRouteInfo" version="1.0">
+        <property income="0" channelLimitMode="0" safetyContour="5" ukcLimit="30.000000"/>
+      </extension>
+    </extensions>
+  </routeInfo>
+  <!--waypoints node-->
+  <waypoints>
+    <!--No.1 waypoint-->
+    <waypoint id="1" name="Mouillage Atuona" radius="0.300000">
+      <position lat="-9.812667" lon="-139.035883"/>
+    </waypoint>
+    <!--No.2 waypoint-->
+    <waypoint id="2" name="1,5` sud Pt Tehaehiapo" radius="0.800000">
+      <position lat="-9.833333" lon="-138.930000"/>
+      <leg portsideXTD="0.080994" starboardXTD="0.080994" safetyContour="5" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="50.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.3 waypoint-->
+    <waypoint id="3" name="Sud Pointe Matafenua" radius="0.800000">
+      <position lat="-9.790000" lon="-138.796667"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="5" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.4 waypoint-->
+    <waypoint id="4" name="E Cap Matafenua" radius="0.800000">
+      <position lat="-9.745000" lon="-138.773333"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="5" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.5 waypoint-->
+    <waypoint id="5" name="Nord Motuofio" radius="0.800000">
+      <position lat="-9.718333" lon="-138.805500"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="5" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.6 waypoint-->
+    <waypoint id="6" name="DCP Puamau" radius="0.800000">
+      <position lat="-9.726667" lon="-138.861667"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="5" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.7 waypoint-->
+    <waypoint id="7" name="Mouillage Puamau" radius="0.800000">
+      <position lat="-9.756167" lon="-138.878833"/>
+      <leg portsideXTD="0.026998" starboardXTD="0.026998" safetyContour="5" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+  </waypoints>
+  <!--schedules node-->
+  <schedules/>
+</route>
