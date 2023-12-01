@@ -61,7 +61,7 @@ impl Waypoint {
         println!("Longitude : {}°{:.6} {} -> {}", self.longitude_int, self.longitude_dec, self.longitude_we, self.longitude_string);
         println!("-------------------------");
 
-        writeln!(chemin, "{};{};{}", self.id, self.latitude_string, self.longitude_string).expect("Erreur d'écriture dans le fichier");
+        writeln!(chemin, "{};{};{};{}", self.id, self.name, self.latitude_string, self.longitude_string).expect("Erreur d'écriture dans le fichier");
     }
 }
 
