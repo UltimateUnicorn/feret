@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--route node-->
+<route version="1.0" xmlns="http://www.cirm.org/RTZ/1/0">
+  <!--routeInfo node-->
+  <routeInfo routeName="BORA BORA - PAPEETE par N" optimizationMethod="MAX speed">
+    <extensions>
+      <extension manufacturer="Furuno" name="AdditionalRouteInfo" version="1.0">
+        <property income="0" channelLimitMode="0" safetyContour="10" ukcLimit="30.000000"/>
+      </extension>
+    </extensions>
+  </routeInfo>
+  <!--waypoints node-->
+  <waypoints>
+    <!--No.1 waypoint-->
+    <waypoint id="1" name="080" radius="0.800000">
+      <position lat="-16.485000" lon="-151.763333"/>
+    </waypoint>
+    <!--No.2 waypoint-->
+    <waypoint id="2" name="079" radius="0.200000">
+      <position lat="-16.497333" lon="-151.766333"/>
+      <leg portsideXTD="0.026998" starboardXTD="0.026998" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.3 waypoint-->
+    <waypoint id="3" name="078" radius="0.400000">
+      <position lat="-16.492333" lon="-151.778833"/>
+      <leg portsideXTD="0.026998" starboardXTD="0.026998" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.4 waypoint-->
+    <waypoint id="4" name="077" radius="0.800000">
+      <position lat="-16.483333" lon="-151.820000"/>
+      <leg portsideXTD="0.026998" starboardXTD="0.026998" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.5 waypoint-->
+    <waypoint id="5" name="076" radius="0.800000">
+      <position lat="-16.418333" lon="-151.758333"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.6 waypoint-->
+    <waypoint id="6" name="081" radius="0.800000">
+      <position lat="-16.666667" lon="-150.983333"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.7 waypoint-->
+    <waypoint id="7" name="005" radius="0.500000">
+      <position lat="-17.506567" lon="-149.603500"/>
+      <leg portsideXTD="0.107991" starboardXTD="0.107991" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="100.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.8 waypoint-->
+    <waypoint id="8" name="004" radius="0.200000">
+      <position lat="-17.540667" lon="-149.581833"/>
+      <leg portsideXTD="0.018898" starboardXTD="0.018898" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.9 waypoint-->
+    <waypoint id="9" name="003" radius="0.100000">
+      <position lat="-17.540667" lon="-149.575333"/>
+      <leg portsideXTD="0.013499" starboardXTD="0.013499" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.10 waypoint-->
+    <waypoint id="10" name="002" radius="0.140000">
+      <position lat="-17.535333" lon="-149.572333"/>
+      <leg portsideXTD="0.005400" starboardXTD="0.005400" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+    <!--No.11 waypoint-->
+    <waypoint id="11" name="001" radius="0.000000">
+      <position lat="-17.532667" lon="-149.577500"/>
+      <leg portsideXTD="0.005400" starboardXTD="0.005400" safetyContour="10" geometryType="Loxodrome" speedMax="16.000000" draughtForward="10.000000" draughtAft="10.000000" staticUKC="30.000000"/>
+      <extensions>
+        <extension manufacturer="Furuno" name="AdditionalLegInfo" version="1.0">
+          <property margin="0.000000" parallelLine1="0.000000" parallelLine2="0.000000"/>
+        </extension>
+      </extensions>
+    </waypoint>
+  </waypoints>
+  <!--schedules node-->
+  <schedules/>
+</route>

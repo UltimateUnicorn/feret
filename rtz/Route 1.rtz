@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--route node-->
+<route version="1.0" xmlns="http://www.cirm.org/RTZ/1/0">
+  <!--routeInfo node-->
+  <routeInfo routeName="AITUTAKI - ATIU" optimizationMethod="MAX speed">
+    <extensions>
+      <extension manufacturer="Furuno" name="AdditionalRouteInfo" version="1.0">
+        <property income="0" channelLimitMode="0" safetyContour="10" ukcLimit="30.000000"/>
+      </extension>
+    </extensions>
+  </routeInfo>
+  <!--waypoints node-->
+  <waypoints>
+    <!--No.1 waypoint-->
+    <waypoint id="1" name="wp1" radius="0.800000">
+      <position lat="-18.850000" lon="-159.816667"/>
+    </waypoint>
+    <!--No.2 waypoint-->
+    <waypoint id="2" name="wp2" radius="0.800000">
+      <position lat="-18.850000" lon="-159.816667"/>
+    </waypoint>
+  </waypoints>
+  <!--schedules node-->
+  <schedules/>
+</route>

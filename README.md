@@ -11,7 +11,7 @@ git clone https://github.com/UltimateUnicorn/feret.git
 
 ## Usage
 
-You need a Rust environnement . The input file has to be named "route.rtz" and be in the same directory as the executable. FERET will output a route.csv file upon execution.
+You need a Rust environnement . Place the input file(s) - *.rtz - inside the "rtz" folder. FERET will output corresponding *.csv files inside the "csv" folder upon execution.
 ```bash
 cargo run
 ```
